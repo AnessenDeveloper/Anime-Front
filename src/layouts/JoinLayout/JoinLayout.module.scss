@@ -1,0 +1,58 @@
+
+@import "/src/scss//index.scss";
+
+.container {
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+
+    > a {
+
+        // Creo que estos dos son asi, CREO
+
+        display: flex;
+        align-items: center;
+
+        > img {
+            height: 150px;
+            margin-top: -40px;
+        }  
+
+        > i {
+            font-size: 30px;
+            color: $danger;
+            margin-top: -80px;
+            margin-right: -10px;
+        }
+    }
+
+}
+
+.blockLeft {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blockRight {
+    background-image: url(/images/sign-wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 50%;
+}
+
+
